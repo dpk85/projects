@@ -1,45 +1,45 @@
-hi deepak kumar
+--git help command
 https://www.youtube.com/watch?v=J_Clau1bYco
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
+> /f/workdata/myprojects
 $ ls
 t1/  t1.txt
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
-$ git config --global user.name "dpk85"
+> /f/workdata/myprojects
+$ git config --global user.name "****"
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
-$ git config --global user.email "jdeepak120@gmail.com"
+> /f/workdata/myprojects
+$ git config --global user.email "****@***.**"
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
-$ git config --global user.email jdeepak120@gmail.com
+> /f/workdata/myprojects
+$ git config --global user.email ****@**.**
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
-$ git clone https://github.com/dpk85/projects.git
+> /f/workdata/myprojects
+$ git clone (URL)
 Cloning into 'projects'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
+> /f/workdata/myprojects
 $ ls
 projects/
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects
+> /f/workdata/myprojects
 $ cd projects/
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ ls
 README.md
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ ls
 README.md  test1.txt
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git add .
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -49,25 +49,25 @@ Changes to be committed:
         new file:   test1.txt
 
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git commit -m "First commit"
 [master 96bb72a] First commit
  1 file changed, 2 insertions(+)
  create mode 100644 test1.txt
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git push -u origin master
-Username for 'https://github.com': dpk85
+Username for 'https://github.com': ****
 Counting objects: 3, done.
 Delta compression using up to 2 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 327 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/dpk85/projects.git
+To ******
    b41a329..96bb72a  master -> master
 Branch master set up to track remote branch master from origin.
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -79,7 +79,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git commit -m "Second commit"
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -88,17 +88,17 @@ Changes not staged for commit:
 
 no changes added to commit
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git push -u origin master
-Username for 'https://github.com': dpk85
+Username for 'https://github.com': ***
 Everything up-to-date
 Branch master set up to track remote branch master from origin.
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git sta
 stage    stash    status
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -110,25 +110,25 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git add .
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git commit -m "Second commit"
 [master 2098562] Second commit
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $ git push -u origin master
-Username for 'https://github.com': dpk85
+Username for 'https://github.com': ****
 Counting objects: 3, done.
 Delta compression using up to 2 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 332 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/dpk85/projects.git
+To ****
    96bb72a..2098562  master -> master
 Branch master set up to track remote branch master from origin.
 
-Deepak@Deepak-PC MINGW32 /f/workdata/myprojects/projects (master)
+> /f/workdata/myprojects/projects (master)
 $
